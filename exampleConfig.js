@@ -122,6 +122,6 @@ Optional Variables:
   graphitePort: 2003
 , graphiteHost: "graphite.example.com"
 , port: 8125
-, backends: ["./backends/console", "./backends/graphite" ]
+, backends: ["./backends/logger", "./backends/console", "./backends/graphite" ]
  , servers: [ "./servers/tcp" ]
 }
